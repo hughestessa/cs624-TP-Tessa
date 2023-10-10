@@ -1,0 +1,1 @@
+The team should use README.md to explain what the key features are, how the application works, and what they learned. 

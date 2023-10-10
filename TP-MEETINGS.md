@@ -1,0 +1,1 @@
+The team should create MEETINGS.md to show when each team has weekly meetings and on what tasks each member worked. Each team member must explain their tasks. 
