@@ -5,6 +5,7 @@ The team should create MEETINGS.md to show when each team has weekly meetings an
 
 # Tessa
 10/10/2023 - Created project in GitHub. Created Microsoft Teams group.
+
 11/12/2023 - Worked on TP02. Read 5 online articles for the literature review section. Additionally, began reasearching ideas for design of the app. (Example: Bottom Tabs Navigator)
 
 # Gayatri
