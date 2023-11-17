@@ -6,7 +6,10 @@ The team should create MEETINGS.md to show when each team has weekly meetings an
 # Tessa
 - **10/10/2023** - Created project in GitHub. Created Microsoft Teams group for communications.
 - **11/12/2023** - Worked on TP02. Read 5 online articles for the literature review section. Additionally, began reasearching ideas for design of the app. (Example: Bottom Tabs Navigator)
+- **11/17/2023** - Worked on TP02. Created app with tab navigation. Used th HOS07 Cities app code to start with, but tweaked it to have an "Add Water" tab where users can enter their water intake, a "Log" tab, where the water entries can be viewed, and a "Inspiration" tab where users can be inspired to drink more water by reading tips and recipes.
 
 # Gayatri
+- TBD
 
 # Nuha
+- **11/16/2023** - Worked on TP02. Read 3 online for the literature review section.
