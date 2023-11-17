@@ -1,28 +1,38 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { Component } from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { LogBox } from 'react-native';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.bold}>Team Members:</Text>
-      <Text></Text>
-      <Text>Tessa Hughes</Text>
-      <Text>Gayatri Soni</Text>
-      <Text>Nuja Alarfaj</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+LogBox.ignoreLogs([
+  'Non-serializable values were found in the navigation state',
+]);
+
+import Log from './src/Log/Log'
+import AddWater from './src/AddWater/AddWater'
+import Inspiration from './src/Inspiration/Inspiration'
+
+const Tab = createBottomTabNavigator();
+
+export default class App extends Component {
+  state = {
+    log: []
+  }
+
+  addWater = (amount) => {
+    const log = this.state.log
+    log.push(amount)
+    this.setState({ log })
+  }
+
+  render() {
+    return (
+      <NavigationContainer>
+        <Tab.Navigator>
+          <Tab.Screen name="AddWater" initialParams={{log: this.state.log, addWater: this.addWater}} component={AddWater} />
+		      <Tab.Screen name="Log"  initialParams={{log: this.state.log, addWater: this.addWater}} component={Log} />
+          <Tab.Screen name="Inspiration" initialParams={{log: this.state.log, addWater: this.addWater}} component={Inspiration} />
+        </Tab.Navigator>
+      </NavigationContainer>
+    );
+  }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#008080',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  bold: {
-    fontWeight: 'bold',
-    textDecorationLine: 'underline',
-  },
-});
