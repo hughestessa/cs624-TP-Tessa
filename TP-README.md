@@ -3,7 +3,7 @@ The team should use README.md to explain what the key features are, how the appl
 # Key Features
 The key features of this application are:
 - Track Water Consumed per Day (Completed by Tessa)
-- Tips and Recipes i.e. Inspiration (Assigned to Nuha)
+- Tips and Recipes i.e. Inspiration (Assigned to Nuha. Completed by Tessa.)
 - Reminders to Drink More Water (Assigned to Gayatri)
 
 # Lessons Learned

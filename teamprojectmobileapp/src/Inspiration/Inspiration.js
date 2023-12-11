@@ -46,6 +46,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginLeft: 10,
+    marginRight: 10,
   },
   InspHeader2: {
     fontSize: 25,
@@ -53,9 +54,11 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginTop: 30,
     marginLeft: 10,
+    marginRight: 10,
   },
   InspBody: {
     marginLeft: 10,
+    marginRight: 10,
     fontSize: 20,
   }
 })
