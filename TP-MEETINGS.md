@@ -14,6 +14,7 @@ The team should create MEETINGS.md to show when each team has weekly meetings an
 
 # Gayatri
 - **11/18/2023** - Worked on TP02. Read 2-3 online for the literature review section.
+- **12/10/2023** - Contributed to TP04 ("Reminder" related slides and "Results" slides)
 
 # Nuha
 - **11/16/2023** - Worked on TP02. Read 3 online for the literature review section.
