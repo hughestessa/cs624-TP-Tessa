@@ -17,7 +17,7 @@ class AddWater extends React.Component {
       alert('Please complete form') }
     else {
       alert('Great job!')
-    }
+    
     const amount = {
       amount: this.state.amount,
       measurement: this.state.measurement,
@@ -31,7 +31,7 @@ class AddWater extends React.Component {
     }, () => {
       this.props.navigation.navigate('Log')
     })
-  }
+  }}
   render() {
     return (
       <View style={styles.container}>
