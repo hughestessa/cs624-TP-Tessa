@@ -13,7 +13,11 @@ class AddWater extends React.Component {
     this.setState({ [key]: value })
   }
   submit = () => {
-    if (this.state.amount === '' || this.state.measurement === '') alert('please complete form')
+    if (this.state.amount === '' || this.state.measurement === '') {
+      alert('Please complete form') }
+    else {
+      alert('Great job!')
+    }
     const amount = {
       amount: this.state.amount,
       measurement: this.state.measurement,
