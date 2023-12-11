@@ -10,7 +10,7 @@ The team should create MEETINGS.md to show when each team has weekly meetings an
 - **11/26/2023** - Updated tab icon images in app
 - **12/6/2023** - Reminded team via Teams to contribute to TP03 and TP04
 - **12/6/2023** - Worked on TP03 and TP04. Finished about 80% of each.
-- **12/10/2023** - Worked on app a bit more, specifically Feature 2 (Inspiration tab)
+- **12/10/2023** - Worked on app a bit more, specifically Feature 2 (Inspiration tab) and Feature 3 (Alerts).
 
 # Gayatri
 - **11/18/2023** - Worked on TP02. Read 2-3 online for the literature review section.
